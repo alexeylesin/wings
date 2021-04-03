@@ -1,8 +1,11 @@
 name: Create Release
 on:
   push:
-    tags:
-      - 'v*'
+    branches:
+      - develop
+  pull_request:
+    branches:
+      - develop
 jobs:
   release:
     runs-on: ubuntu-20.04
