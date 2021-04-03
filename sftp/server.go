@@ -18,9 +18,9 @@ import (
 	"emperror.dev/errors"
 	"github.com/apex/log"
 	"github.com/pkg/sftp"
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/remote"
-	"github.com/pterodactyl/wings/server"
+	"github.com/alexeylesin/wings/config"
+	"github.com/alexeylesin/wings/remote"
+	"github.com/alexeylesin/wings/server"
 	"golang.org/x/crypto/ssh"
 )
 

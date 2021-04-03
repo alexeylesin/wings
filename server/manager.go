@@ -15,11 +15,11 @@ import (
 	"emperror.dev/errors"
 	"github.com/apex/log"
 	"github.com/gammazero/workerpool"
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/environment"
-	"github.com/pterodactyl/wings/environment/docker"
-	"github.com/pterodactyl/wings/remote"
-	"github.com/pterodactyl/wings/server/filesystem"
+	"github.com/alexeylesin/wings/config"
+	"github.com/alexeylesin/wings/environment"
+	"github.com/alexeylesin/wings/environment/docker"
+	"github.com/alexeylesin/wings/remote"
+	"github.com/alexeylesin/wings/server/filesystem"
 )
 
 type Manager struct {

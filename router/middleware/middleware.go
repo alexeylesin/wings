@@ -12,10 +12,10 @@ import (
 	"github.com/apex/log"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/remote"
-	"github.com/pterodactyl/wings/server"
-	"github.com/pterodactyl/wings/server/filesystem"
+	"github.com/alexeylesin/wings/config"
+	"github.com/alexeylesin/wings/remote"
+	"github.com/alexeylesin/wings/server"
+	"github.com/alexeylesin/wings/server/filesystem"
 )
 
 // RequestError is a custom error type returned when something goes wrong with

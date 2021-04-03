@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/mholt/archiver/v3"
-	"github.com/pterodactyl/wings/system"
+	"github.com/alexeylesin/wings/system"
 )
 
 // CompressFiles compresses all of the files matching the given paths in the

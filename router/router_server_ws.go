@@ -7,8 +7,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	ws "github.com/gorilla/websocket"
-	"github.com/pterodactyl/wings/router/middleware"
-	"github.com/pterodactyl/wings/router/websocket"
+	"github.com/alexeylesin/wings/router/middleware"
+	"github.com/alexeylesin/wings/router/websocket"
 )
 
 // Upgrades a connection to a websocket and passes events along between.

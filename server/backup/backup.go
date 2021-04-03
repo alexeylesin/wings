@@ -9,8 +9,8 @@ import (
 	"sync"
 
 	"github.com/apex/log"
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/remote"
+	"github.com/alexeylesin/wings/config"
+	"github.com/alexeylesin/wings/remote"
 )
 
 type AdapterType string

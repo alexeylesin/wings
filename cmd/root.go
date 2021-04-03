@@ -20,14 +20,14 @@ import (
 	"github.com/gammazero/workerpool"
 	"github.com/mitchellh/colorstring"
 	"github.com/pkg/profile"
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/environment"
-	"github.com/pterodactyl/wings/loggers/cli"
-	"github.com/pterodactyl/wings/remote"
-	"github.com/pterodactyl/wings/router"
-	"github.com/pterodactyl/wings/server"
-	"github.com/pterodactyl/wings/sftp"
-	"github.com/pterodactyl/wings/system"
+	"github.com/alexeylesin/wings/config"
+	"github.com/alexeylesin/wings/environment"
+	"github.com/alexeylesin/wings/loggers/cli"
+	"github.com/alexeylesin/wings/remote"
+	"github.com/alexeylesin/wings/router"
+	"github.com/alexeylesin/wings/server"
+	"github.com/alexeylesin/wings/sftp"
+	"github.com/alexeylesin/wings/system"
 	"github.com/spf13/cobra"
 	"golang.org/x/crypto/acme"
 	"golang.org/x/crypto/acme/autocert"
@@ -403,8 +403,8 @@ __ [blue][bold]Pterodactyl[reset] _____/___/_______ _______ ______
 Copyright © 2018 - 2021 Dane Everitt & Contributors
 
 Website:  https://pterodactyl.io
- Source:  https://github.com/pterodactyl/wings
-License:  https://github.com/pterodactyl/wings/blob/develop/LICENSE
+ Source:  https://github.com/alexeylesin/wings
+License:  https://github.com/alexeylesin/wings/blob/develop/LICENSE
 
 This software is made available under the terms of the MIT license.
 The above copyright notice and this permission notice shall be included

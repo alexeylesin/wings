@@ -5,15 +5,15 @@ import (
 	"compress/gzip"
 	"context"
 	"fmt"
-	"github.com/pterodactyl/wings/server/filesystem"
+	"github.com/alexeylesin/wings/server/filesystem"
 	"io"
 	"net/http"
 	"os"
 	"strconv"
 
 	"github.com/juju/ratelimit"
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/remote"
+	"github.com/alexeylesin/wings/config"
+	"github.com/alexeylesin/wings/remote"
 )
 
 type S3Backup struct {

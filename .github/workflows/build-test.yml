@@ -51,7 +51,7 @@ jobs:
           GOOS: ${{ matrix.goos }}
           GOARCH: ${{ matrix.goarch }}
           CGO_ENABLED: 0
-          SRC_PATH: github.com/pterodactyl/wings
+          SRC_PATH: github.com/alexeylesin/wings
         run: |
           go build -v -trimpath -ldflags="-s -w -X ${SRC_PATH}/system.Version=dev-${GIT_COMMIT:0:7}" -o build/wings_${{ matrix.goos }}_${{ matrix.goarch }} wings.go
           upx build/wings_${{ matrix.goos }}_${{ matrix.goarch }}

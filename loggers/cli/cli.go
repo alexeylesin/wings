@@ -87,15 +87,15 @@ func (h *Handler) HandleLog(e *log.Entry) error {
 			// Stacktrace:
 			// readlink test: no such file or directory
 			// failed to read symlink target for 'test'
-			// github.com/pterodactyl/wings/server/filesystem.(*Archive).addToArchive
-			//         github.com/pterodactyl/wings/server/filesystem/archive.go:166
+			// github.com/alexeylesin/wings/server/filesystem.(*Archive).addToArchive
+			//         github.com/alexeylesin/wings/server/filesystem/archive.go:166
 			// ... (Truncated the stack for easier reading)
 			// runtime.goexit
 			//         runtime/asm_amd64.s:1374
 			// **NEW LINE INSERTED HERE**
 			// backup: error while generating server backup
-			// github.com/pterodactyl/wings/server.(*Server).Backup
-			//         github.com/pterodactyl/wings/server/backup.go:84
+			// github.com/alexeylesin/wings/server.(*Server).Backup
+			//         github.com/alexeylesin/wings/server/backup.go:84
 			// ... (Truncated the stack for easier reading)
 			// runtime.goexit
 			//         runtime/asm_amd64.s:1374

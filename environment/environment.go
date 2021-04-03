@@ -3,7 +3,7 @@ package environment
 import (
 	"os"
 
-	"github.com/pterodactyl/wings/events"
+	"github.com/alexeylesin/wings/events"
 )
 
 const (

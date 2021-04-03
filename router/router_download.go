@@ -8,9 +8,9 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/pterodactyl/wings/router/middleware"
-	"github.com/pterodactyl/wings/router/tokens"
-	"github.com/pterodactyl/wings/server/backup"
+	"github.com/alexeylesin/wings/router/middleware"
+	"github.com/alexeylesin/wings/router/tokens"
+	"github.com/alexeylesin/wings/server/backup"
 )
 
 // Handle a download request for a server backup.

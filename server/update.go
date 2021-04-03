@@ -6,7 +6,7 @@ import (
 	"emperror.dev/errors"
 	"github.com/buger/jsonparser"
 	"github.com/imdario/mergo"
-	"github.com/pterodactyl/wings/environment"
+	"github.com/alexeylesin/wings/environment"
 )
 
 // UpdateDataStructure merges data passed through in JSON form into the existing

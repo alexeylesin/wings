@@ -21,7 +21,7 @@ import (
 	"github.com/cobaugh/osrelease"
 	"github.com/creasty/defaults"
 	"github.com/gbrlsnchs/jwt/v3"
-	"github.com/pterodactyl/wings/system"
+	"github.com/alexeylesin/wings/system"
 	"gopkg.in/yaml.v2"
 )
 

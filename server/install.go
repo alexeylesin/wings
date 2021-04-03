@@ -17,10 +17,10 @@ import (
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/mount"
 	"github.com/docker/docker/client"
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/environment"
-	"github.com/pterodactyl/wings/remote"
-	"github.com/pterodactyl/wings/system"
+	"github.com/alexeylesin/wings/config"
+	"github.com/alexeylesin/wings/environment"
+	"github.com/alexeylesin/wings/remote"
+	"github.com/alexeylesin/wings/system"
 )
 
 // Executes the installation stack for a server process. Bubbles any errors up to the calling

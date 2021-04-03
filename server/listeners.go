@@ -7,10 +7,10 @@ import (
 	"sync"
 
 	"github.com/apex/log"
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/environment"
-	"github.com/pterodactyl/wings/events"
-	"github.com/pterodactyl/wings/remote"
+	"github.com/alexeylesin/wings/config"
+	"github.com/alexeylesin/wings/environment"
+	"github.com/alexeylesin/wings/events"
+	"github.com/alexeylesin/wings/remote"
 )
 
 var dockerEvents = []string{

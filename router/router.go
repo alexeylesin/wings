@@ -3,9 +3,9 @@ package router
 import (
 	"github.com/apex/log"
 	"github.com/gin-gonic/gin"
-	"github.com/pterodactyl/wings/remote"
-	"github.com/pterodactyl/wings/router/middleware"
-	"github.com/pterodactyl/wings/server"
+	"github.com/alexeylesin/wings/remote"
+	"github.com/alexeylesin/wings/router/middleware"
+	"github.com/alexeylesin/wings/server"
 )
 
 // Configure configures the routing infrastructure for this daemon instance.

@@ -7,10 +7,10 @@ import (
 
 	"github.com/apex/log"
 	"github.com/gin-gonic/gin"
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/installer"
-	"github.com/pterodactyl/wings/router/middleware"
-	"github.com/pterodactyl/wings/system"
+	"github.com/alexeylesin/wings/config"
+	"github.com/alexeylesin/wings/installer"
+	"github.com/alexeylesin/wings/router/middleware"
+	"github.com/alexeylesin/wings/system"
 )
 
 // Returns information about the system that wings is running on.

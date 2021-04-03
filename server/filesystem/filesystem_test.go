@@ -12,7 +12,7 @@ import (
 	"unicode/utf8"
 
 	. "github.com/franela/goblin"
-	"github.com/pterodactyl/wings/config"
+	"github.com/alexeylesin/wings/config"
 )
 
 func NewFs() (*Filesystem, *rootFs) {

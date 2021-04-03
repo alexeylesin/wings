@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"emperror.dev/errors"
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/environment"
+	"github.com/alexeylesin/wings/config"
+	"github.com/alexeylesin/wings/environment"
 	"golang.org/x/sync/semaphore"
 )
 

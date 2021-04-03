@@ -23,14 +23,14 @@ import (
 	"github.com/juju/ratelimit"
 	"github.com/mholt/archiver/v3"
 	"github.com/mitchellh/colorstring"
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/installer"
-	"github.com/pterodactyl/wings/remote"
-	"github.com/pterodactyl/wings/router/middleware"
-	"github.com/pterodactyl/wings/router/tokens"
-	"github.com/pterodactyl/wings/server"
-	"github.com/pterodactyl/wings/server/filesystem"
-	"github.com/pterodactyl/wings/system"
+	"github.com/alexeylesin/wings/config"
+	"github.com/alexeylesin/wings/installer"
+	"github.com/alexeylesin/wings/remote"
+	"github.com/alexeylesin/wings/router/middleware"
+	"github.com/alexeylesin/wings/router/tokens"
+	"github.com/alexeylesin/wings/server"
+	"github.com/alexeylesin/wings/server/filesystem"
+	"github.com/alexeylesin/wings/system"
 )
 
 // Number of ticks in the progress bar

@@ -10,10 +10,10 @@ import (
 	"emperror.dev/errors"
 	"github.com/apex/log"
 	"github.com/gin-gonic/gin"
-	"github.com/pterodactyl/wings/router/downloader"
-	"github.com/pterodactyl/wings/router/middleware"
-	"github.com/pterodactyl/wings/router/tokens"
-	"github.com/pterodactyl/wings/server"
+	"github.com/alexeylesin/wings/router/downloader"
+	"github.com/alexeylesin/wings/router/middleware"
+	"github.com/alexeylesin/wings/router/tokens"
+	"github.com/alexeylesin/wings/server"
 )
 
 type serverProcData struct {

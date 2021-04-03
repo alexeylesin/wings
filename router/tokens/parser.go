@@ -2,7 +2,7 @@ package tokens
 
 import (
 	"github.com/gbrlsnchs/jwt/v3"
-	"github.com/pterodactyl/wings/config"
+	"github.com/alexeylesin/wings/config"
 	"time"
 )
 

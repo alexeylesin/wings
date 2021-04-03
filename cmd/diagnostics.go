@@ -21,10 +21,10 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/pkg/parsers/kernel"
 	"github.com/docker/docker/pkg/parsers/operatingsystem"
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/environment"
-	"github.com/pterodactyl/wings/loggers/cli"
-	"github.com/pterodactyl/wings/system"
+	"github.com/alexeylesin/wings/config"
+	"github.com/alexeylesin/wings/environment"
+	"github.com/alexeylesin/wings/loggers/cli"
+	"github.com/alexeylesin/wings/system"
 	"github.com/spf13/cobra"
 )
 

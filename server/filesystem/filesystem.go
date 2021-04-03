@@ -17,8 +17,8 @@ import (
 	"emperror.dev/errors"
 	"github.com/gabriel-vasile/mimetype"
 	"github.com/karrick/godirwalk"
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/system"
+	"github.com/alexeylesin/wings/config"
+	"github.com/alexeylesin/wings/system"
 	ignore "github.com/sabhiram/go-gitignore"
 )
 

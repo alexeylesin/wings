@@ -4,8 +4,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/pterodactyl/wings/environment"
-	"github.com/pterodactyl/wings/system"
+	"github.com/alexeylesin/wings/environment"
+	"github.com/alexeylesin/wings/system"
 )
 
 // Defines the current resource usage for a given server instance. If a server is offline you

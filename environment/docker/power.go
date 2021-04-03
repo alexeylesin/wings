@@ -12,8 +12,8 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/client"
-	"github.com/pterodactyl/wings/environment"
-	"github.com/pterodactyl/wings/remote"
+	"github.com/alexeylesin/wings/environment"
+	"github.com/alexeylesin/wings/remote"
 )
 
 // Run before the container starts and get the process configuration from the Panel.

@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/google/uuid"
-	"github.com/pterodactyl/wings/server"
+	"github.com/alexeylesin/wings/server"
 	"io"
 	"net"
 	"net/http"

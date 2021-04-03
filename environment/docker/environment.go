@@ -10,10 +10,10 @@ import (
 	"github.com/apex/log"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
-	"github.com/pterodactyl/wings/environment"
-	"github.com/pterodactyl/wings/events"
-	"github.com/pterodactyl/wings/remote"
-	"github.com/pterodactyl/wings/system"
+	"github.com/alexeylesin/wings/environment"
+	"github.com/alexeylesin/wings/events"
+	"github.com/alexeylesin/wings/remote"
+	"github.com/alexeylesin/wings/system"
 )
 
 type Metadata struct {

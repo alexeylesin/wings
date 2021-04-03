@@ -15,7 +15,7 @@ import (
 	"github.com/buger/jsonparser"
 	"github.com/icza/dyno"
 	"github.com/magiconair/properties"
-	"github.com/pterodactyl/wings/config"
+	"github.com/alexeylesin/wings/config"
 	"gopkg.in/ini.v1"
 	"gopkg.in/yaml.v2"
 )

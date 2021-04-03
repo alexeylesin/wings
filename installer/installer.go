@@ -7,9 +7,9 @@ import (
 	"emperror.dev/errors"
 	"github.com/asaskevich/govalidator"
 	"github.com/buger/jsonparser"
-	"github.com/pterodactyl/wings/environment"
-	"github.com/pterodactyl/wings/remote"
-	"github.com/pterodactyl/wings/server"
+	"github.com/alexeylesin/wings/environment"
+	"github.com/alexeylesin/wings/remote"
+	"github.com/alexeylesin/wings/server"
 )
 
 type Installer struct {

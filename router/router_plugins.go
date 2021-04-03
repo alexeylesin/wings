@@ -3,14 +3,14 @@ package router
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"github.com/pterodactyl/wings/router/middleware"
+	"github.com/alexeylesin/wings/router/middleware"
 	"io"
 	"mime"
 	"net/http"
 	"os"
 	"errors"
 	"strings"
-	"github.com/pterodactyl/wings/config"
+	"github.com/alexeylesin/wings/config"
 )
 
 // Download Plugin

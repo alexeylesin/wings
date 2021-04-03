@@ -10,8 +10,8 @@ import (
 	"github.com/apex/log"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/pterodactyl/wings/server"
-	"github.com/pterodactyl/wings/server/filesystem"
+	"github.com/alexeylesin/wings/server"
+	"github.com/alexeylesin/wings/server/filesystem"
 )
 
 type RequestError struct {

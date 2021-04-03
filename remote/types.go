@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/apex/log"
-	"github.com/pterodactyl/wings/parser"
+	"github.com/alexeylesin/wings/parser"
 )
 
 // A generic type allowing for easy binding use when making requests to API

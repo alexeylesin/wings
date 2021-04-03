@@ -13,7 +13,7 @@ import (
 	"github.com/juju/ratelimit"
 	"github.com/karrick/godirwalk"
 	"github.com/klauspost/pgzip"
-	"github.com/pterodactyl/wings/config"
+	"github.com/alexeylesin/wings/config"
 	"github.com/sabhiram/go-gitignore"
 )
 

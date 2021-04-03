@@ -9,8 +9,8 @@ import (
 
 	"emperror.dev/errors"
 	"github.com/mitchellh/colorstring"
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/system"
+	"github.com/alexeylesin/wings/config"
+	"github.com/alexeylesin/wings/system"
 )
 
 var ErrTooMuchConsoleData = errors.New("console is outputting too much data")

@@ -14,7 +14,7 @@ import (
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/AlecAivazis/survey/v2/terminal"
-	"github.com/pterodactyl/wings/config"
+	"github.com/alexeylesin/wings/config"
 	"github.com/spf13/cobra"
 )
 
