@@ -24,19 +24,6 @@ jobs:
         run: |
           upx build/wings_linux_amd64 && chmod +x build/wings_linux_amd64
           upx build/wings_linux_arm64 && chmod +x build/wings_linux_arm64
-      - name: Create release branch
-        env:
-          REF: ${{ github.ref }}
-        run: |
-          BRANCH=release/${REF:10}
-          git config --local user.email "panel-ci@alexeylesin.me"
-          git config --local user.name "LesinPanel CI"
-          git checkout -b $BRANCH
-          git push -u origin $BRANCH
-          sed -i "s/	Version = \".*\"/	Version = \"${REF:11}\"/" system/const.go
-          git add system/const.go
-          git commit -m "bump version for release"
-          git push
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
